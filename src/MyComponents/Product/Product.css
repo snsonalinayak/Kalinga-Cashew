@@ -1,0 +1,11 @@
+.product--items{
+    width: 100%;
+  margin: 0 auto;
+}
+.card{
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+   
