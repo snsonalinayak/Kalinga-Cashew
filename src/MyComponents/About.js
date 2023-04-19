@@ -18,7 +18,8 @@ export const About = () => {
                         The taste of authenticity❜❜ </p>
                     </div>
                     <div class='para ' >
-                    <p>We are based in south Odisha which climate is very much favorable for cashew plantation.There are lots of processing plant in this area to produce best quality cashew.We are tied up with these processing plants to supply you the fresh & crispy cashew of different type at affordable prlce.Though you will get cashew In market which are stock for some time and not so crispy as the fresh cashew. So give us a chance.We hope we will definitely fulfill your expectation.</p>
+                    <p>We are based in south Odisha, where the climate is favorable for cashew plantation. There are lots of processing plantation farms here and so we bring to you the best produced quality cashew.
+	                Our cashews are unique as the're fresh & crispy. We bring on the table different types of cashew sizes for you to enjoy at a affordable price. We promise to serve you the best quality cashew.</p>
                     </div>
                 </div>
             </header>
@@ -32,12 +33,13 @@ export const About = () => {
                     <div className="head-image">
                         <img className= "bg" src={slide3} alt="bg" />
                     </div>
-                    <div class='text-on-image'>
-                        <p> ❛❛Kalinga Cashew,<br></br>
-                        The taste of authenticity❜❜ </p>
+                    <div class='offer-on-image'>
+                        <p> ❛❛Special Offer❜❜ </p>
                     </div>
-                    <div class='para ' >
-                    <p>We are based in south Odisha which climate is very much favorable for cashew plantation.There are lots of processing plant in this area to produce best quality cashew.We are tied up with these processing plants to supply you the fresh & crispy cashew of different type at affordable prlce.Though you will get cashew In market which are stock for some time and not so crispy as the fresh cashew. So give us a chance.We hope we will definitely fulfill your expectation.</p>
+                    <div class='offer-para ' >
+                    <p>Complimentary Jagannath Mahaprasad<br/>
+                    Cash on Delivery Available<br/>
+                    Free Home Delivery</p>
                     </div>
                 </div>
             </header>

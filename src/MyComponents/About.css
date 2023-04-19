@@ -30,3 +30,26 @@
   /* width:1349px; */
   /* height: 10px; */
 }
+
+.offer-on-image{
+  position: absolute;
+  right: 60%;
+  left: 10%;
+  top: 15%;
+  font-size: 50px;
+  color: #eaeabf;
+  text-align: left;
+
+}
+
+.offer-para{
+  position: absolute;
+  right: 60%;
+  left: 10%;
+  top: 24%;
+  font-size: 40px;
+  color: #361f17;
+  /* background: rgb(235, 235, 191, 0.4); */
+  padding: 10px;
+  text-align: left; 
+}

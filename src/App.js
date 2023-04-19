@@ -19,12 +19,13 @@ function App() {
     <>
     <Router>
     <Header/>
-    <About/>
-    <Product/> 
+    {/* <About/> */}
+    {/* <Product/>  */}
     <Routes>
 
     {/* <Products/>  */}
     \
+    <Route path="/" element={<About/>}/>
     <Route path="/products" element={<Product/>}/>
     <Route path="/about" element={<About/>}/>
     {/* <About/> */}
