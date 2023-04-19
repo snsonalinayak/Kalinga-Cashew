@@ -8,7 +8,7 @@ import { useNavigate} from 'react-router-dom'
 export const Product = () => {
   const navigate = useNavigate();
   const OnClick=()=>{
-    navigate('/about')
+    navigate('/cart')
   }
   return (
 
@@ -22,9 +22,10 @@ export const Product = () => {
         <img src={kaju1} class="card-img-top" alt="..." />
 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Whole Cashew W-210 1Kg</h5>
+          <s class="card-mrp">MRP Rs.999</s>
+          <p class="card-price">Our Price Rs.799</p>
+          <button type="button" class="btn btn-Success" onClick={OnClick}>Buy Now </button>
         </div>
       </div>
 
@@ -32,9 +33,10 @@ export const Product = () => {
         <img src={kaju2} class="card-img-top" alt="..." />
 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-Success">Go somewhere</a>
+        <h5 class="card-title">Split Cashew 1Kg</h5>
+        <s class="card-mrp">MRP Rs.899</s>
+        <p class="card-price">Our Price Rs.699</p>          
+        <button type="button" class="btn btn-Success"onClick={OnClick}>Buy Now</button>
         </div>
       </div>
 
@@ -42,9 +44,10 @@ export const Product = () => {
         <img src={kaju3} class="card-img-top" alt="..." />
 
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <button type="button"  class="btn btn-Success" onClick={OnClick}>Go somewhere</button>
+        <h5 class="card-title">Four Piece Cashew 1Kg</h5>
+        <s class="card-mrp">MRP Rs.799</s>
+        <p class="card-price">Our Price Rs.599</p>
+        <button type="button"  class="btn btn-Success" onClick={OnClick}>Buy Now</button>
         </div>
       </div>
 

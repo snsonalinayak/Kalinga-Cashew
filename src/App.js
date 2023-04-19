@@ -9,7 +9,8 @@ import {Buynow} from './MyComponents/Buy Now/Buynow';
 import {
   BrowserRouter as Router,
   Route,
-  Routes
+  Routes,
+  Switch
 } from "react-router-dom";
 
 
@@ -18,11 +19,13 @@ function App() {
     <>
     <Router>
     <Header/>
-    
+    <About/>
+    <Product/> 
     <Routes>
 
     {/* <Products/>  */}
-    <Route path="/" element={<Product/>}/>
+    \
+    <Route path="/products" element={<Product/>}/>
     <Route path="/about" element={<About/>}/>
     {/* <About/> */}
     {/* <Trial/> */}
